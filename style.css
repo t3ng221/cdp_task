@@ -1,0 +1,96 @@
+.nav-bar{
+    background-color: white;
+    height: 80px;
+    width: 100%; 
+    overflow: hidden;
+    position: fixed;
+    top:0;
+}
+#home_icon{
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 2px;
+    display: inline-block;
+    border-style: solid;
+    font-size: 20px;
+}
+#nav_option{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 400px;
+    display: inline-block;
+    
+}
+.nav_item_style{
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 530;
+}
+
+.upper_button{
+    margin: 0px;
+    padding-left: 250px;  
+    display: inline-block;
+}
+
+.upper_button_style{
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+
+}
+.upper_button_style:hover{
+    background-color: rgb(198, 198, 198);
+}   
+
+.intro{
+    text-align: center;
+    margin: 20%;
+    
+}
+
+.intro_first{
+    font-size: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.intro_second{
+    font-size: 25px;
+    color: rgb(159, 158, 158);
+    font-weight: 100;
+}
+.about_me{
+    background-color: rgb(232, 232, 232);
+    display: inline-block;
+    padding: 50px;
+}
+.about_me:h2{
+    font-size: 50px;
+}
+.line_before{
+    border-bottom: 20px solid green;
+}
+.about_info{
+    display: flex;
+}
+.about_para{
+    width: 40%;
+    padding-left: 120px;
+    text-align: justify;
+    
+}
+.para_content{
+    padding-top: 15px;
+}
+
+.about_image{
+ 
+    padding-left: 150px;
+    margin: 10px;
+    padding-top: 10px;
+    
+}
