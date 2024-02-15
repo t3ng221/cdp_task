@@ -84,7 +84,7 @@
 }
 
 #heading_line_1{
-    width: 250px;
+    width: 400px;
     color: black;
     height: 1px;
     background-color: black;
@@ -94,7 +94,7 @@
  
 }
 #heading_line_2{
-    width: 250px;
+    width: 400px;
     color: black;
     height: 1px;
     margin: 10px;
@@ -121,5 +121,55 @@
     padding-left: 130px;
     margin: 10px;
     padding-top: 45px;
+    
+}
+.experience{
+    height: 600px
+}
+.job_all_details{
+    display: flex;
+}
+.job_info_1{
+    width: 230px;
+    font-size: 18px;
+    padding-left: 240px;
+    text-align: end;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.job_info_s1{
+    margin-bottom: -20px;
+}
+.job_info_s3{
+    margin-top: -5px;
+}
+#job_title_line1{
+   width: 230px;
+   margin-right: 300px;
+   margin-top: -15px;
+}
+.job_detail_bp{
+    width: 1000px;
+    font-size: 18px;
+}
+.job_detail_content{
+    width: 600px;
+}
+
+.job_detail_li{
+    padding: 5px 5px;
+}
+#job_detail_content_2{
+    margin-left: 230px;
+    font-size: 18px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+#job_info_2{
+    padding-right: 320px;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 50px;   
+    margin-right: 200px;
     
 }
