@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Simple Portfolio</title>
     
 </head>
 <body>
@@ -27,13 +29,10 @@
         <div class="intro">
             <h1 class="intro_first">Hi, I'm John Smith</h1>
             <h5 class="intro_second">I design and Build Things</h5>
-            <button>
-                <i class="fa-solid fa-angles-down"style="font-size:38px"></i>
-            </button>
+            <a id="down_arrow" href="#about_me_link"><i class="fa-solid fa-angles-down"style="font-size: 30px"></i></a>
         </div>
-        <div class="about_me">
-
-            <h2 style="text-align: center;font-size: 40px;font-weight: 300;"><span class="line_before"></span>About Me<span class="line_after"></span></h2>
+        <div class="about_me" id="about_me_link">
+            <h2 style="text-align: center;font-size: 40px;font-weight: 300;"><hr id="heading_line_1">About Me <hr id="heading_line_2"></h2>
                 <div class="about_info">
                     <div class="about_para">
                         <p class="para_content_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac eros non nulla tristique facilisis. Ut sollicitudin mollis dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sed mi non massa faucibus rhoncus. Mauris ut dolor arcu. Vestibulum vitae consectetur sapien.</p>
@@ -41,11 +40,14 @@
                         <p class="para_content">Quisque sagittis feugiat massa, ut finibus justo. Aliquam id tristique enim. In felis sapien, porttitor quis ultrices sed, eleifend auctor libero. Nulla nec nisl ut nisl efficitur rutrum.</p>
                     </div>
                     <div class="about_image">
-                        <img src="about_me.jpg" alt="" style="border-radius: 10px;width: 250px;">
+                        <img src="about_me.jpg" alt="" style="border-radius: 10px;width: 300px;">
                     </div>
                 </div>
         </div>
-       
+       <div>
+        <div class="experience">
+            <h2 style="text-align: center;font-size: 40px;font-weight: 300;"><hr id="heading_line_1">Experience <hr id="heading_line_2"></h2>
+       </div>
 </body>
 </html>
 
