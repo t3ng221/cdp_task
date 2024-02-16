@@ -192,11 +192,18 @@
 }
 #feature_project{
     display: flex;
+
+}
+.featured_project_style{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(226, 224, 224);
+
 }
 /* project 2 style */
 #project2_img{
     margin-top: 60px;
-    margin-left: 30px;
+    margin-left: 30px;          
 }
 #feature_project2{
     display: flex;  
@@ -213,4 +220,80 @@
 }
 .project_language{
     display: flex;
+}
+
+.other_project_main {
+    display: flex;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+    margin-left: 220px;
+}
+.other_project_main2{
+    display: flex;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+    margin-left: 30px;
+}
+.other_image img {
+    width: 150px;
+    border-radius: 5px; /* Add border-radius for rounded corners if desired */
+}
+
+.other_project_detail{
+    margin-left: 20px;
+    margin-top: -20px; 
+}
+.other_language{
+    margin-left: -40px;
+}
+
+.write_message{
+    margin-left: 700px;
+    width: 100px;
+    height: 50px;
+}
+.contact_section{
+    width: 100%;
+    height: 500px;
+}
+
+#contact-form{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    margin-left: 500px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 500px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
+}
+
+#submit_btn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 720px;
+}
+
+button:hover {
+    cursor: pointer;
 }
